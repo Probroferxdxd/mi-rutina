@@ -10,104 +10,107 @@ const RutinaGym = () => {
         {
             dia: "Lunes",
             horario: "4:30-5:30am",
-            enfoque: "Empuje Superior",
+            enfoque: "Empuje Superior (PROGRESIÓN SEMANA 3)",
             actividades: "Colegio 7:35-2:35 | Inglés 5:35-7:05",
             estudioNoche: "UNI: Matemáticas 45min | Programación 30min",
             ejercicios: [
                 { ejercicio: "Calentamiento dinámico", sets: "5 min", notas: "Círculos de brazos, muñecas, rotación hombros" },
-                { ejercicio: "Press de banca", sets: "3x10", peso: "20-40kg", notas: "Máquina" },
-                { ejercicio: "Flexiones regulares", sets: "3x15", notas: "Sin máquina - forma perfecta" },
-                { ejercicio: "Vuelo de pecho", sets: "3x12", peso: "Moderado", notas: "Máquina" },
-                { ejercicio: "Press militar mancuernas", sets: "3x8-10", peso: "5-10kg" },
-                { ejercicio: "Pike push-ups", sets: "3x10", notas: "Sin máquina - hombros" },
-                { ejercicio: "Fondos en máquina", sets: "3x8-12", notas: "Tríceps" },
-                { ejercicio: "Flexiones diamante", sets: "2x máx", notas: "Finisher sin máquina" }
+                { ejercicio: "Press de banca", sets: "4x10", peso: "30-45kg", notas: "⬆️ +5-10kg y +1 serie" },
+                { ejercicio: "Flexiones regulares", sets: "3x20", notas: "⬆️ +5 reps - mantén forma perfecta" },
+                { ejercicio: "Vuelo de pecho", sets: "4x12", peso: "Moderado-alto", notas: "⬆️ +1 serie" },
+                { ejercicio: "Press militar mancuernas", sets: "4x10", peso: "10-15kg", notas: "⬆️ +5kg y +1 serie" },
+                { ejercicio: "Pike push-ups elevados", sets: "3x12", notas: "⬆️ Pies en banco/escalón" },
+                { ejercicio: "Fondos en máquina o paralelas", sets: "4x10-12", notas: "⬆️ Menos asistencia o peso corporal" },
+                { ejercicio: "Flexiones pseudo-planche", sets: "3x8", notas: "🆕 Manos más atrás, lean forward" }
             ]
         },
         {
             dia: "Martes",
             horario: "4:30-5:30am",
-            enfoque: "Jalón Superior",
+            enfoque: "Jalón Superior (PROGRESIÓN SEMANA 3)",
             actividades: "Colegio | Banda 3-5 | Inglés 5:35-7:05",
             estudioNoche: "UNI: Física 45min",
             ejercicios: [
-                { ejercicio: "Calentamiento", sets: "5 min", notas: "Dead hangs 3x20s + movilidad" },
-                { ejercicio: "Jalón agarre amplio", sets: "4x10", peso: "Fuerte", notas: "Máquina" },
-                { ejercicio: "Pull-ups asistidas o negativas", sets: "4x5-8", notas: "Sin máquina - progresión dominadas" },
-                { ejercicio: "Jalón agarre cerrado", sets: "3x10", peso: "Moderado", notas: "Máquina" },
-                { ejercicio: "Remo con barra", sets: "3x8-10", peso: "20-40kg" },
-                { ejercicio: "Australian pull-ups", sets: "3x10", notas: "Sin máquina - remo horizontal" },
-                { ejercicio: "Curl bíceps", sets: "3x12", peso: "5-10kg" },
-                { ejercicio: "Scapular pulls", sets: "3x10", notas: "Sin máquina - fuerza escapular" }
+                { ejercicio: "Calentamiento", sets: "5 min", notas: "Dead hangs 3x30s + movilidad" },
+                { ejercicio: "Jalón agarre amplio", sets: "4x12", peso: "Fuerte", notas: "⬆️ +2 reps o +peso" },
+                { ejercicio: "Pull-ups o negativas", sets: "5x6-10", notas: "⬆️ +1 serie, meta: dominadas completas" },
+                { ejercicio: "Jalón agarre cerrado", sets: "4x12", peso: "Moderado-alto", notas: "⬆️ +1 serie" },
+                { ejercicio: "Remo con barra", sets: "4x10", peso: "30-50kg", notas: "⬆️ +10kg" },
+                { ejercicio: "Australian pull-ups pies elevados", sets: "3x12", notas: "⬆️ Más difícil" },
+                { ejercicio: "Curl bíceps", sets: "3x15", peso: "10-15kg", notas: "⬆️ +5kg" },
+                { ejercicio: "Archer pull-ups (asistidas)", sets: "3x5 c/lado", notas: "🆕 Progresión unilateral" }
             ]
         },
         {
             dia: "Miércoles",
             horario: "4:30-5:30am",
-            enfoque: "Piernas Completo",
+            enfoque: "Piernas Completo (PROGRESIÓN SEMANA 3)",
             actividades: "Colegio 7:35-2:35 | Inglés 5:35-7:05",
             estudioNoche: "UNI: Química 45min | Programación 30min",
             ejercicios: [
-                { ejercicio: "Bicicleta", sets: "5-8 min", notas: "Calentamiento" },
-                { ejercicio: "Sentadillas", sets: "4x10-12", peso: "20-40kg", notas: "Con barra" },
-                { ejercicio: "Sentadillas búlgaras", sets: "3x10 c/pierna", peso: "5-10kg", notas: "Sin máquina - equilibrio" },
-                { ejercicio: "Peso muerto rumano", sets: "3x10", peso: "20-40kg" },
-                { ejercicio: "Zancadas caminando", sets: "3x10 c/pierna", peso: "5-10kg" },
-                { ejercicio: "Pistol squats asistidas", sets: "3x5 c/pierna", notas: "Sin máquina - progresión parkour" },
-                { ejercicio: "Gemelos parado", sets: "4x15", peso: "Mancuernas" },
-                { ejercicio: "Saltos al cajón o step-ups", sets: "3x10", notas: "Sin máquina - explosividad" },
-                { ejercicio: "Abdominales máquina", sets: "3x15", notas: "Contraer fuerte" },
-                { ejercicio: "Hollow body hold", sets: "3x30s", notas: "Sin máquina - core calistenia" }
+                { ejercicio: "Bicicleta + movilidad", sets: "8 min", notas: "Calentamiento completo" },
+                { ejercicio: "Sentadillas", sets: "4x12", peso: "30-50kg", notas: "⬆️ +10kg" },
+                { ejercicio: "Sentadillas búlgaras", sets: "3x12 c/pierna", peso: "10-15kg", notas: "⬆️ +5kg y +2 reps" },
+                { ejercicio: "Peso muerto rumano", sets: "4x10", peso: "30-50kg", notas: "⬆️ +10kg y +1 serie" },
+                { ejercicio: "Zancadas caminando", sets: "3x12 c/pierna", peso: "10kg", notas: "⬆️ +2 reps" },
+                { ejercicio: "Pistol squats asistidas", sets: "4x6 c/pierna", notas: "⬆️ Menos asistencia" },
+                { ejercicio: "Gemelos parado", sets: "4x20", peso: "15kg c/u", notas: "⬆️ +5 reps" },
+                { ejercicio: "Saltos al cajón explosivos", sets: "4x12", notas: "⬆️ Cajón más alto si es posible" },
+                { ejercicio: "Abdominales máquina", sets: "4x20", notas: "⬆️ +5 reps" },
+                { ejercicio: "Hollow body hold", sets: "4x40s", notas: "⬆️ +10s" },
+                { ejercicio: "V-ups", sets: "3x15", notas: "🆕 Core dinámico" }
             ]
         },
         {
             dia: "Jueves",
             horario: "Descanso gym",
-            enfoque: "Foco académico",
+            enfoque: "Foco académico + Movilidad activa",
             actividades: "Colegio | Banda 3-5 | Inglés 5:35-7:05",
             estudioNoche: "UNI: Aptitud 45min | TOEFL 30min",
             ejercicios: [
-                { ejercicio: "Estiramientos matutinos", sets: "15 min", notas: "Opcional" },
-                { ejercicio: "Core nocturno", sets: "3x30s", notas: "Plancha + hollow" }
+                { ejercicio: "Estiramientos matutinos", sets: "20 min", notas: "⬆️ +5min - Yoga flow o movilidad profunda" },
+                { ejercicio: "Core nocturno", sets: "4 rondas", notas: "⬆️ Plancha 40s + hollow 30s + side plank 30s c/lado" }
             ]
         },
         {
             dia: "Viernes",
             horario: "4:30-5:30am",
-            enfoque: "Full Body + Parkour",
+            enfoque: "Full Body + Parkour Skills (PROGRESIÓN SEMANA 3)",
             actividades: "Colegio 7:35-2:35 | Inglés 5:35-7:05",
             estudioNoche: "Repaso UNI 1hr | Proyecto Flask 30min",
             ejercicios: [
-                { ejercicio: "Movilidad dinámica", sets: "5 min", notas: "Prep articular completo" },
-                { ejercicio: "Press de banca", sets: "3x10", peso: "Moderado", notas: "Día ligero" },
-                { ejercicio: "Flexiones arqueras", sets: "3x8 c/lado", notas: "Sin máquina - unilateral" },
-                { ejercicio: "Jalón dorsal", sets: "3x10", peso: "Moderado" },
-                { ejercicio: "Burpees", sets: "3x10", notas: "Sin máquina - explosividad total" },
-                { ejercicio: "Handstand contra pared", sets: "5x20-30s", notas: "Sin máquina - balance" },
-                { ejercicio: "Tuck front lever", sets: "4x10-15s", notas: "Sin máquina - progresión calistenia" },
-                { ejercicio: "Elevación piernas colgado", sets: "3x10", notas: "Sin máquina - core" },
-                { ejercicio: "Dragon flags (asistidas)", sets: "3x5", notas: "Sin máquina - core avanzado" }
+                { ejercicio: "Movilidad dinámica + saltos", sets: "5 min", notas: "Prep completo" },
+                { ejercicio: "Press de banca", sets: "3x12", peso: "25-40kg", notas: "⬆️ +2 reps - día ligero" },
+                { ejercicio: "Flexiones explosivas (clap)", sets: "3x10", notas: "🆕 Pliométrico" },
+                { ejercicio: "Jalón dorsal", sets: "3x12", peso: "Moderado", notas: "⬆️ +2 reps" },
+                { ejercicio: "Burpees con pull-up", sets: "3x8", notas: "⬆️ Más difícil - combinado" },
+                { ejercicio: "Handstand contra pared", sets: "5x30-45s", notas: "⬆️ +15s" },
+                { ejercicio: "Handstand shoulder taps", sets: "3x10", notas: "🆕 Más control" },
+                { ejercicio: "Tuck front lever", sets: "5x15-20s", notas: "⬆️ +1 serie y +5s" },
+                { ejercicio: "Elevación piernas rectas", sets: "4x12", notas: "⬆️ Piernas rectas en vez de flexionadas" },
+                { ejercicio: "Windshield wipers", sets: "3x8", notas: "🆕 Core rotacional" }
             ]
         },
         {
             dia: "Sábado",
             horario: "9:00-10:30am",
-            enfoque: "Calistenia + Parkour",
+            enfoque: "Calistenia + Parkour (PROGRESIÓN SEMANA 3)",
             actividades: "Día de estudio intenso + programación",
             estudioNoche: "UNI 2-3hrs | Programación 2-3hrs",
             ejercicios: [
-                { ejercicio: "Calentamiento", sets: "10 min", notas: "Movilidad + cardio ligero" },
-                { ejercicio: "Práctica de saltos parkour", sets: "20 min", notas: "Precisión, altura, distancia - sin máquina" },
-                { ejercicio: "Kong vault practice", sets: "10 rep", notas: "Técnica parkour - sin máquina" },
-                { ejercicio: "Speed vault / Lazy vault", sets: "10 rep c/u", notas: "Técnicas - sin máquina" },
-                { ejercicio: "Wall runs", sets: "15 intentos", notas: "Parkour - sin máquina" },
-                { ejercicio: "Pull-ups", sets: "5x máx", notas: "Meta: 10 consecutivas - sin máquina" },
-                { ejercicio: "Muscle-up negativas", sets: "5x3", notas: "Progresión - sin máquina" },
-                { ejercicio: "Dips", sets: "5x máx", notas: "Paralelas o máquina" },
-                { ejercicio: "L-sit", sets: "5x15-20s", notas: "Suelo o paralelas - sin máquina" },
-                { ejercicio: "Plancha frontal", sets: "3x45s", notas: "Sin máquina" },
-                { ejercicio: "Plancha lateral", sets: "3x30s c/lado", notas: "Sin máquina" },
-                { ejercicio: "Cat balance", sets: "5x30s", notas: "Equilibrio en barra - sin máquina" }
+                { ejercicio: "Calentamiento + parkour flow", sets: "10 min", notas: "Movilidad + cuadrupedia" },
+                { ejercicio: "Saltos de precisión", sets: "25 min", notas: "⬆️ +5min - distancias mayores" },
+                { ejercicio: "Kong vault", sets: "15 rep", notas: "⬆️ +5 reps - más fluido" },
+                { ejercicio: "Speed vault / Lazy vault", sets: "12 rep c/u", notas: "⬆️ +2 reps" },
+                { ejercicio: "Wall runs + cat leaps", sets: "20 intentos", notas: "⬆️ Combinado - más alto" },
+                { ejercicio: "Pull-ups estrictas", sets: "6x8-12", notas: "⬆️ +1 serie - meta: 12 consecutivas" },
+                { ejercicio: "Muscle-up negativas lentas", sets: "5x5", notas: "⬆️ +2 reps - 5s bajada" },
+                { ejercicio: "Dips con peso o lean forward", sets: "5x12-15", notas: "⬆️ Añadir dificultad" },
+                { ejercicio: "L-sit to V-sit", sets: "5x20s", notas: "⬆️ Transición dinámica" },
+                { ejercicio: "Tuck planche lean", sets: "4x15s", notas: "🆕 Progresión planche" },
+                { ejercicio: "Front lever tuck to one leg", sets: "4x10s", notas: "⬆️ Siguiente progresión" },
+                { ejercicio: "Hollow to arch rocks", sets: "3x20", notas: "🆕 Core dinámico" },
+                { ejercicio: "Precision landings", sets: "20 rep", notas: "Aterrizajes silenciosos desde altura" }
             ]
         },
         {
