@@ -352,7 +352,7 @@ const RutinaSemanal = () => {
                                                                 <div className="flex items-center gap-2 mb-2">
                                                                     {ejercicio.notas?.includes('🆕') && (
                                                                         <span className="bg-green-500 text-white text-xs px-2 py-1 rounded-full font-semibold">
-                                      NUEVO
+                                      NUEVOa
                                     </span>
                                                                     )}
                                                                     {ejercicio.notas?.includes('⬆️') && (
